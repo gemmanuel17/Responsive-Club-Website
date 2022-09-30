@@ -1,0 +1,145 @@
+/* Global Styling */
+
+* {
+    font-family: 'Inter Tight', sans-serif;
+    box-sizing: border-box;
+    padding: 0PX;
+    margin: 0px;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;;
+}
+
+/* Nav Styling */
+
+.nav-bar {
+    background-color: rgba( 0, 0, 0, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-logo a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: #808080;
+}
+
+/* Banner Styling */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/leslie-jones-urBiLDuUhMU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+}
+
+.banner-text {
+    color: #ffffff;
+}
+
+.banner-text h1 {
+    font-size: 10rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 20px #000000;
+}
+
+/* About Section Styling */
+
+.about-flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./img/bo-smo-gE3nIaUn1Ds-unsplash.jpg");
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 2.5rem 0;
+}    
+
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 25%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2rem 5rem;
+    border: 5px ridge #ffffff;
+}
+
+.about-text-container h1 {
+    font-size: 2.5rem;
+}
+
+.about-text-container p {
+    margin: 0.5rem 2rem 1.5rem 2rem;
+}
+
+.about-img-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-flex-container img {
+    display: block;
+    max-width: 45%;
+    height: auto;
+    margin: 1rem auto;
+    border: 5px ridge #ffffff;
+}
+
+/* Class Section Styling */
+
+.classes-container {
+    background-color: #000000;
+}
+
+#classes-title h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    color: #ffffff;
+    position: relative;
+    margin: 0px auto;
+    padding-bottom: 2rem;
+}
+
+thead th {
+    border: 1px solid #ffffff;
+    padding: 0.625rem 1.5rem;
+}
